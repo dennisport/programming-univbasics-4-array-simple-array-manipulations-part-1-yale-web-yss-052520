@@ -13,9 +13,8 @@ colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
  
 def using_pop(continents)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
-  
-  continents
+ deleted_string = continents.pop
+ p continents
    end
 
 def pop_with_args(dog_breeds)
